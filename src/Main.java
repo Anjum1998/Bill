@@ -37,6 +37,12 @@ public class Main {
                     c.coffee = coffee;
                     break;
 
+                case 3:
+                    System.out.println("Enter count of snacks");
+                    int snacks = input.nextInt();
+                    c.snacks = snacks;
+                    break;
+
             }
 //            System.out.println("do you wish to continue? true / false");
 //            ch = input.nextBoolean();
